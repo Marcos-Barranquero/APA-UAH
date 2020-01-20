@@ -1,0 +1,10 @@
+﻿  
+  C:\Users\Edu\Desktop\PECL1 16384\16384 Global\16384 Global>"..\..\..\..\..\..\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\bin\nvcc.exe" -ccbin "D:\visual studio\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64" -x cu  -I"..\..\..\..\..\..\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\include" -I"..\..\..\..\..\..\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile   -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od  /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel_global.cu.obj "C:\Users\Edu\Desktop\PECL1 16384\16384 Global\16384 Global\kernel_global.cu" -clean 
+  kernel_global.cu
+  Compiling CUDA source file kernel_global.cu...
+  
+  C:\Users\Edu\Desktop\PECL1 16384\16384 Global\16384 Global>"..\..\..\..\..\..\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\bin\nvcc.exe" -gencode=arch=compute_35,code=\"sm_35,compute_35\" --use-local-env -ccbin "D:\visual studio\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64" -x cu  -I"..\..\..\..\..\..\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\include" -I"..\..\..\..\..\..\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc141.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel_global.cu.obj "C:\Users\Edu\Desktop\PECL1 16384\16384 Global\16384 Global\kernel_global.cu" 
+  kernel_global.cu
+C:/Users/Edu/Desktop/PECL1 16384/16384 Global/16384 Global/kernel_global.cu(954): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+     Creando biblioteca C:\Users\Edu\Desktop\PECL1 16384\16384 Global\x64\Debug\16384 Global.lib y objeto C:\Users\Edu\Desktop\PECL1 16384\16384 Global\x64\Debug\16384 Global.exp
+  16384 Global.vcxproj -> C:\Users\Edu\Desktop\PECL1 16384\16384 Global\x64\Debug\16384 Global.exe
